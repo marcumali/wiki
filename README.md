@@ -1,9 +1,9 @@
 # Frontend wiki
 
 ## Always
-```
-- Test dynamic content longer/shorter/no text/images
-- Comply with Styleguides
+
+* Test dynamic content longer/shorter/no text/images
+* Comply with Styleguides
 * Test components in a different location (e.g. formfields, buttons etc.)
 * Hover/Focus-states on interactive items (links/buttons/etc)
 * Is it responsive in between mobile/tablet/desktop
@@ -13,14 +13,14 @@
 * Test on different browsers and platforms (more or less, more when new site)
 * Compare end result with design
 * Test on screen size points:
-	** 320 px (iPhone 2-5)
-	** 375 px (iPhone 6/7)
-	** 414 px (iPhone 6/7 Plus)
-	** 768 px (iPad portrait)
-	** 1024 px (iPad landscape)
-	** 1280 px and up (majority of desktops)
 ```
-
+* 320 px (iPhone 2-5)
+* 375 px (iPhone 6/7)
+* 414 px (iPhone 6/7 Plus)
+* 768 px (iPad portrait)
+* 1024 px (iPad landscape)
+* 1280 px and up (majority of desktops)
+```
 ## New sites/Large updates on existing sites
 ```
 * One and only one H1 on each page
