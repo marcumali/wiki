@@ -1,6 +1,6 @@
 # Web Development Wikipedia
 
-[HTML](http://www.google.com/) | [CSS](http://www.google.com/) | [JAVASCRIPT](http://www.google.com/) | [WORDPRESS](http://www.google.com/) | [PHP](http://www.google.com/)
+[HTML](https://github.com/marcumali/wiki-html) | [CSS](http://www.google.com/) | [JAVASCRIPT](http://www.google.com/) | [WORDPRESS](http://www.google.com/) | [PHP](http://www.google.com/)
 
 Guide and best practice of web development
 
