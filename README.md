@@ -126,13 +126,15 @@
 	- `define('DISABLE_WP_CRON', 'true');`
 * function.php
 	- `add_filter('xmlrpc_enabled', '__return_false');`
-	- ```php
+	- 
+	```php
 	function remove_version() { 
 		return ''; 
 	} 
 		add_filter('the_generator', 'remove_version');
 	```
-	- ```php
+	- 
+	```php
 	function wrong_login() { 
 		return 'Wrong username or password'; 
 	} 
