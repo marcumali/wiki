@@ -51,35 +51,3 @@ Guide and best practice of web development
 * soft indents, 2 spaces
 * save svgs in assets/images and name them according to class name
 * follow the current method (Bootstrap, BEM or SMACSS)
-
-## BACKEND
-
-* Set most appropriate image sizes in admin and in output
-* Forms are submitting data properly & gives the user feedback
-* Admin username is not _admin_
-* Database has another prefix than `wp_`
-* Comments are disabled (if not used)
-* WordFence
-* Hide wp-config in htaccess
-* Disable theme and plugin editor
-* Remove unused themes and plugins
-* Don’t allow search engines to find page until (remember to turn it on when going live)
-* Remove `wp-config-sample.php`
-* config.php
-	- `define('DISABLE_WP_CRON', 'true');`
-* function.php
-	- `add_filter('xmlrpc_enabled', '__return_false');`
-	- 
-	```php
-	function remove_version() { 
-		return ''; 
-	} 
-		add_filter('the_generator', 'remove_version');
-	```
-	- 
-	```php
-	function wrong_login() { 
-		return 'Wrong username or password'; 
-	} 
-	add_filter('login_errors', 'wrong_login');
-	```
