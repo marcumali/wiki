@@ -13,14 +13,13 @@
 * Test on different browsers and platforms (more or less, more when new site)
 * Compare end result with design
 * Test on screen size points:
-```
-* 320 px (iPhone 2-5)
-* 375 px (iPhone 6/7)
-* 414 px (iPhone 6/7 Plus)
-* 768 px (iPad portrait)
-* 1024 px (iPad landscape)
-* 1280 px and up (majority of desktops)
-```
+	- 320px _(iPhone 2-5)_
+	- 375px _(iPhone 6/7)_
+	- 414px _(iPhone 6/7 Plus)_
+	- 768px _(iPad portrait)_
+	- 1024px (_iPad landscape)_
+	- 1280px _and up (majority of desktops)_
+
 ## New sites/Large updates on existing sites
 * One and only one H1 on each page
 * Semantically correct use of headings, don’t set heading level based on design
@@ -124,12 +123,8 @@
 * Don’t allow search engines to find page until (remember to turn it on when going live)
 * Remove `wp-config-sample.php`
 * config.php
-```
-define('DISABLE_WP_CRON', 'true');
-```
+	- `define('DISABLE_WP_CRON', 'true');`
 * function.php
-```
-1. add_filter('xmlrpc_enabled', '__return_false');
-2. function remove_version() { return ''; } add_filter('the_generator', 'remove_version');
-3. function wrong_login() { return 'Wrong username or password'; } add_filter('login_errors', 'wrong_login');
-```
+	- `add_filter('xmlrpc_enabled', '__return_false');`
+	- `function remove_version() { return ''; } add_filter('the_generator', 'remove_version');`
+	- `function wrong_login() { return 'Wrong username or password'; } add_filter('login_errors', 'wrong_login');`
