@@ -100,15 +100,15 @@
 * hover-state within media-query since there's no reliable way to check for touchscreen
 * long, comma-separated property values - such as collections of gradients or shadows can be arranged across multiple lines in an effort to improve readability e.g.
 * the order of properties in a selector:
-	1. @extend
-	2. @include **without** inner @content
-	3. properties, alphabetic order
-	4. @include **with** inner @content
-	5. nested rule sets
+	- `@extend`
+	- `@include` without inner `@content`
+	- properties, alphabetic order
+	- `@include` with inner `@content`
+	- nested rule sets
 * vendor prefix order:
-	1. -moz-
-	2. -webkit-
-	3. no vendor
+	- `-moz-`
+	- `-webkit-`
+	- `no vendor`
 
 ## BACKEND
 
