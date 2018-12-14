@@ -2,6 +2,8 @@
 
 [HTML](http://www.google.com/) | [CSS](http://www.google.com/) | [JAVASCRIPT](http://www.google.com/) | [WORDPRESS](http://www.google.com/) | [PHP](http://www.google.com/)
 
+Guide and best practice of web development
+
 ## Always
 
 * Test dynamic content longer/shorter/no text/images
