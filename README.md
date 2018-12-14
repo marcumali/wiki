@@ -1,9 +1,10 @@
-# Frontend wiki
+# Web Development Wikipedia
+
+[HTML](http://www.google.com/) | [CSS](http://www.google.com/) | [JAVASCRIPT](http://www.google.com/) | [WORDPRESS](http://www.google.com/)
 
 ## Always
 
 * Test dynamic content longer/shorter/no text/images
-* Comply with Styleguides
 * Test components in a different location (e.g. formfields, buttons etc.)
 * Hover/Focus-states on interactive items (links/buttons/etc)
 * Is it responsive in between mobile/tablet/desktop
@@ -50,7 +51,7 @@
 * follow the current method (Bootstrap, BEM or SMACSS)
 
 ## HTML5
-* attribute values within double quotes e.g. class="..."
+* attribute values within double quotes e.g. `class="..."`
 * `<a>` with `target="_blank"` add `rel="noreferrer noopener"`
 * Use aria-expanded/aria-controls/aria-hidden
 * `<a>` are for links, if you need a button to trigger js only then use `<button>`
