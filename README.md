@@ -2,8 +2,8 @@
 
 ## Always
 ```
-* Test dynamic content longer/shorter/no text/images
-* Comply with Styleguides
+- Test dynamic content longer/shorter/no text/images
+- Comply with Styleguides
 * Test components in a different location (e.g. formfields, buttons etc.)
 * Hover/Focus-states on interactive items (links/buttons/etc)
 * Is it responsive in between mobile/tablet/desktop
