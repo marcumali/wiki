@@ -52,13 +52,6 @@ Guide and best practice of web development
 * save svgs in assets/images and name them according to class name
 * follow the current method (Bootstrap, BEM or SMACSS)
 
-## HTML5
-* attribute values within double quotes e.g. `class="..."`
-* `<a>` with `target="_blank"` add `rel="noreferrer noopener"`
-* Use aria-expanded/aria-controls/aria-hidden
-* `<a>` are for links, if you need a button to trigger js only then use `<button>`
-* if href is targeting an element(ID) that is not focusable add `tabindex="-1"` to target element
-
 ## JavaScript
 
 * when `.on('click', ... )` is used, allow keydown as well
